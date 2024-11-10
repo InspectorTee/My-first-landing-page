@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking for beginners</title>
+    <style>
+        body {background-color: #e4f1fe; 
+            font-family: 'lora',serif;
+            border:5px solid #22313f;
+        
+
+        }
+
+ 
+   h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #22313f; 
+}
+
+h1 {
+    font-size: 36px; 
+    margin-bottom: 10px;
+    margin: auto;
+    padding-top: 0px;
+    
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0; 
+}
+
+
+p {
+    font-family: 'Lora', serif; 
+    font-size: 16px;
+    line-height: 1.6; 
+    color: #22313f;
+    margin-bottom: 15px;
+}  
+ .content {
+    max-width:700px;
+    margin:0 auto; 
+    padding: 40px 20px; 
+}
+
+ 
+button {display:block;
+    margin: auto;
+    padding: 10px 20px; 
+    font-size: 14px;
+    margin-top: 20px; 
+    background-color: #ff895d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px maroon;
+    transition: 200ms all ease-in-out;
+
+}
+button:hover{ cursor: pointer;
+background-color:#ff895d;}
+
+
+    
+  
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width:700px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+
+}
+
+
+
+ul{list-style: none;
+    text-align: center;
+display:block;}
+
+li{text-align: center;
+display:block;
+color: #22313f;
+
+}
+.subheading{
+    font-size: 17px;
+    font-family:popins , sans-serif;
+    margin: 5px;
+    color:#8dc6ff;
+    text-align: center;
+    text-decoration: underline;
+}
+.heading2{font-size: 17px;
+    font-family: sans-serif;
+    color: #8dc6ff;
+    text-align: center;
+    text-decoration: underline;
+    }
+ 
+.list{font-size:11px;
+display: block;
+text-align: center;
+text-decoration: none;
+color:#ff895d;
+padding:2px 1px;
+margin:5px;
+}
+.list:hover{text-decoration: underline;}
+
+.learn{  list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    
+     }
+     .learn li{ display: inline-block; 
+    margin-right: 15px; 
+    font-size: 14px;}
+
+    .learn li strong {
+    display:block;        
+    font-size: 13px;}
+
+
+.learn li span {
+    display:block;        
+    font-size: 12px;
+
+}
+
+.coder{ 
+    font-size:11px ;
+margin: auto;
+text-align: center;
+color: gray;}
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="content">
+<h1>Learn to Cook! Simple, Easy, and Fun!
+</h1> <hr>
+<h2>
+"Step into the kitchen with confidence. Master the basics with our easy-to-follow recipes".
+</h2>
+<img src="https://www.meghantelpner.com/wp-content/uploads/2022/03/basic-knife-skills.jpg " alt="vegetables,cutting boards and knives on top of a table"/>
+<p>
+    Cooking is an aspect of all human societies and a cultural universal. Types of cooking also depend on the skill levels and training of the cooks.</p>
+    
+<strong>
+<p class="subheading">Whats cooking this week 👩‍🍳?</p></strong>
+<ul class="menu">
+<li>  🍗Manchurian chicken.</li>
+<li> 🥩Beef enchiladas.</li>
+<li> 🍽'Marry me' chicken. </li>
+<li> 🍜Spaghetti puttanesca.</li>
+<li> 🍗Easy chicken fajitas.</li>
+<li> 🧆Bean & halloumi stew.</li>
+<li> 🥘Sichuan chicken.  </li>
+</ul>
+
+
+<strong>
+    <p class="heading2">Nutrition Facts</strong>
+         (per serving)</p>
+<ul  class="learn">
+    <li><strong>377</strong><span>Calories</span></li>
+    <li><strong>17g</strong><span>Fat</span></li>
+    <li><strong>26g</strong><span>Carbs</span></li>
+    <li><strong>29g</strong><span>Protein</span></li></ul>
+
+<a href="https://g.co/kgs/4DL8spB "target="-blank"
+class="list">Show Full Nutrition Label</a>
+
+
+
+
+
+<button id="recipeButton">
+    Try a Recipe
+
+</button>
+<p class="coder">Coded by Thato Leotlela</p>
+
+    </div>  
+    <script>
+      document.getElementById("recipeButton").addEventListener("click", function() {
+            // Ask the user for their name
+            var userName = prompt("What is your name?");
+
+            // If the user provides a name, show an alert
+            if (userName) {
+                alert(userName + ", Happy Cooking😋");
+            } else {
+                // If no name is entered, show a generic alert
+                alert("Happy Cooking😋");
+            }
+        });
+      
+    </script> 
+</body>
+</html>
